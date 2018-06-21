@@ -6,6 +6,6 @@ function getUKTime(number) {
 }
 
 function discountTicket(oldPrice) {
-  const newPrice = oldPrice * 0.8
-  return newPrice
+  const newPrice = oldPrice * 0.8;
+  return newPrice;
 }
