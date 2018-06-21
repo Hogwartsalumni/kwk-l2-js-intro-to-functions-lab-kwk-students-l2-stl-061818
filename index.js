@@ -9,3 +9,8 @@ function discountTicket(oldPrice) {
   const newPrice = oldPrice * 0.8;
   return newPrice;
 }
+
+function tweetReply(fansName) {
+  const reply = `Hey ${fansName}, thanks so much fro the support! I really appreciate it!`;
+  return reply;
+}
