@@ -5,6 +5,7 @@ function getUKTime(number) {
   return currentHour;
 }
 
-//function discountTicket(price) {
-//  const 
-//}
+function discountTicket(oldPrice) {
+  const newPrice = oldPrice * 0.8
+  return newPrice
+}
